@@ -1,0 +1,35 @@
+body {
+    margin: auto;
+    padding: auto;
+  }
+  header {
+    background-color: rgba(255, 0, 0, 0.812);
+    padding: 20px;
+    text-align: center;
+  }
+  main {
+    display: flex;
+    justify-content: space-between;
+  }
+  .block {
+    padding: 20px;
+  }
+  .block:nth-child(1) {
+    background-color: rgba(255, 255, 0, 0.812);
+    flex: 1;
+    text-align: center;
+  }
+  .block:nth-child(2) {
+    background-color: rgba(78, 89, 255, 0.812);
+    flex: 2;
+  }
+  .block:nth-child(3) {
+    background-color: rgba(255, 85, 122, 0.812);
+    flex: 1;
+    text-align: center;
+  }
+  footer {
+    background-color: rgba(144, 238, 144, 0.812);
+    padding: 20px;
+    text-align: center;
+  }
